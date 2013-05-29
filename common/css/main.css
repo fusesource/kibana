@@ -7,13 +7,24 @@
 }
 
 .navbar .brand {
-  color: #eee;
+  color: #777;
+}
+
+.navbar-text {
+  color: #777;
 }
 
 .navbar-inner {
   border-width: 0 0 0px;
   padding-left: 0px;
   padding-right: 0px;
+  background-color:#ededed;
+  background-image:-moz-linear-gradient(top, #fafafa, #eaeaea);
+  background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#fafafa), to(#eaeaea));
+  background-image:-webkit-linear-gradient(top, #fafafa, #eaeaea);
+  background-image:-o-linear-gradient(top, #fafafa, #eaeaea);
+  background-image:linear-gradient(to bottom, #fafafa, #eaeaea);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeaeaea', endColorstr='#fffafafa', GradientType=0);
 }
 
 .kibana-row {
@@ -22,7 +33,7 @@
 }
 
 .row-close {
-  color: #bbb;  
+  color: #777;
   position: absolute;
   font-size: 9pt;
   font-weight: 200;
@@ -32,7 +43,7 @@
 
 .row-open {
   text-align: right;
-  color: #bbb;  
+  color: #777;
   margin-top:30px;
   position: absolute;
   font-size: 13pt;
@@ -53,7 +64,7 @@
 }
 
 .odd {
-  background-color: #3a3f44;
+  background-color: #f9f9f9;
 }
 
 .nomargin {
