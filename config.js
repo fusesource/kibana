@@ -18,6 +18,7 @@ var config = new Settings(
   // elasticsearch installed on. You probably want to set it to the FQDN of your
   // elasticsearch host
   elasticsearch:    "es",
+  types:            ['log'],
   // elasticsearch: 'http://localhost:9200',
   kibana_index:     "kibana-int", 
   modules:          ['histogram','map','pie','table','stringquery','sort',
